@@ -50,3 +50,7 @@
   console.log('fibanocci value is' + value);
 
 ```
+
+
+#### Fibbonacci Diagram 
+![image](https://user-images.githubusercontent.com/49813796/171796040-3b46559f-eced-4a9d-b8ba-2b422e4c2858.png)
