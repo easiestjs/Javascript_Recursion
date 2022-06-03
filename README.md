@@ -32,3 +32,21 @@
   consoleLogBasedOnCondition(1, 5);
 
 ```
+
+
+### Example (2)
+
+```bash
+
+  function fibanacciSeriesByRecursion(num){
+    if(num < 2 ){ 
+        return num;
+    }
+
+    return fibanacciSeriesByRecursion(num-1) + fibanacciSeriesByRecursion(num - 2);
+  }
+
+  const value = fibanacciSeriesByRecursion(5);
+  console.log('fibanocci value is' + value);
+
+```
